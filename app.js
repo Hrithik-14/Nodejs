@@ -8,9 +8,11 @@ var fs = require('fs')
 // fs.writeFile('calc1.js','console.log("done")',function(err){
 //     console.log("Data Saveed");
     
-// })
+// })-0
 
 fs.appendFile('calc.js','console.log("done")',function(err){
     console.log("Data Saveed");
     
 })
+
+
